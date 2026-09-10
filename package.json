@@ -1,0 +1,17 @@
+{
+  "name": "yaojie",
+  "version": "0.1.0",
+  "description": "Minimal Express starter app used to bootstrap and demonstrate the Cloud Agent development environment.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "4.22.2"
+  }
+}
